@@ -1,3 +1,6 @@
+This is an Hadoop Map/Reduce application for Working on weather data It reads the text input files, breaks each line into stations weather data and finds average for temperature , dew point , wind speed. The output is a locally sorted list of stations and its 12 attribute vector of average temperature, dew , wind speed of 4 sections for each month.
+
+
 Make sure you have hadoop installed in your system.
 To start the hadoop type in 		$start-dfs.sh       this activites the hadoop storage
 then 		$start-yarn.sh            this activates the hadoop mapreduce
